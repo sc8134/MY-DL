@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mydl"
+version = "0.1.0"
+description = "Stdlib-only download manager with mirrors, FTP/FTPS, Web UI"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.11"
+dependencies = []
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Internet :: File Transfer Protocol (FTP)",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: System :: Archiving :: Backup",
+    "Topic :: Utilities",
+]
+keywords = ["download", "ftp", "ftps", "mirror", "resume", "parallel", "web-ui", "stdlib"]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/mydl"
+Repository = "https://github.com/yourusername/mydl"
+Issues = "https://github.com/yourusername/mydl/issues"
+Documentation = "https://github.com/yourusername/mydl#readme"
+
+[project.scripts]
+mydl = "mydl.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

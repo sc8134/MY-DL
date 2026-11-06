@@ -1,0 +1,7 @@
+[mirrors]
+strategy = "fastest"
+probe_timeout = 3.0
+urls = [
+  "https://httpbin.org/bytes/512",
+  "https://httpbin.org/bytes/512"
+]
