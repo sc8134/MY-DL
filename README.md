@@ -1,10 +1,10 @@
 # mydl
 
-[![PyPI Version](https://img.shields.io/pypi/v/mydl?label=)](https://pypi.org/project/mydl/)
-[![Python Versions](https://img.shields.io/pypi/pyversions/mydl)](https://pypi.org/project/mydl/)
-[![License](https://img.shields.io/pypi/l/mydl)](LICENSE)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/yourusername/mydl/ci.yml?branch=main&label=build)](https://github.com/yourusername/mydl/actions)
-[![Downloads](https://img.shields.io/pypi/dm/mydl)](https://pypi.org/project/mydl/)
+[![PyPI Version](https://img.shields.io/pypi/v/mydl-cli?label=)](https://pypi.org/project/mydl-cli/)
+[![Python Versions](https://img.shields.io/pypi/pyversions/mydl-cli)](https://pypi.org/project/mydl-cli/)
+[![License](https://img.shields.io/pypi/l/mydl-cli)](LICENSE)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/sc8134/MY-DL/pypi-publish.yml?branch=main&label=build)](https://github.com/sc8134/MY-DL/actions)
+[![Downloads](https://img.shields.io/pypi/dm/mydl-cli)](https://pypi.org/project/mydl-cli/)
 
 > **A zero-dependency, stdlib-only download manager** with mirror support, FTP/FTPS, parallel downloads, resume capability, integrity verification, and a built-in Web UI dashboard.
 
@@ -30,7 +30,7 @@
 ## Installation
 
 ```bash
-pip install mydl
+pip install mydl-cli
 ```
 
 Requires **Python 3.11+**. No system packages, no Rust, no C extensions.
@@ -183,8 +183,8 @@ mydl/
 ## Development
 
 ```bash
-git clone https://github.com/yourusername/mydl
-cd mydl
+git clone https://github.com/sc8134/MY-DL
+cd MY-DL
 pip install -e .[dev]    # Includes pytest, ruff, mypy
 mydl --version
 ```

@@ -3,7 +3,7 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "mydl"
+name = "mydl-cli"
 version = "0.1.0"
 description = "Stdlib-only download manager with mirrors, FTP/FTPS, Web UI"
 readme = "README.md"
@@ -26,10 +26,10 @@ classifiers = [
 keywords = ["download", "ftp", "ftps", "mirror", "resume", "parallel", "web-ui", "stdlib"]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/mydl"
-Repository = "https://github.com/yourusername/mydl"
-Issues = "https://github.com/yourusername/mydl/issues"
-Documentation = "https://github.com/yourusername/mydl#readme"
+Homepage = "https://github.com/sc8134/MY-DL"
+Repository = "https://github.com/sc8134/MY-DL"
+Issues = "https://github.com/sc8134/MY-DL/issues"
+Documentation = "https://github.com/sc8134/MY-DL#readme"
 
 [project.scripts]
 mydl = "mydl.cli:main"
